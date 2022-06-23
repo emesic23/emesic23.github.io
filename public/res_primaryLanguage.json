@@ -1,9 +1,9 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Howdy!",
+      "description": "I'm Esmir Mesic, a student at Caltech graduating in June 2023 pursuing a double major in Computer Science and Business, Economics, and Management (BEM) with a minor in Data Science. I love exploring data to find meaningful insights. Feel free to reach out to me! :)",
       "section_name": {
-        "about": "About me",
+        "about": "Who Am I?",
         "projects": "Projects",
         "skills": "Skills",
         "experience": "Experience"
@@ -11,9 +11,9 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
+        "title": "Super Maruchan",
         "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "A clone of Super Mario created in a group of 4 from scratch in C using SDL2 libraries for the Caltech course CS3: Software Engineering. I was responsible for level creation and debugging most things throughout the project.",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
           "images/portfolio/animal-shelter/p2.jpg"
@@ -21,23 +21,19 @@
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-c-plain",
+            "name": "C Programming Language"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-sdl-plain",
+            "name": "SDL"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Rust Zip Utility",
+        "startDate": "2022",
+        "description": "A recreation of the zip and unzip utilities using Rust. My second project in Rust, dealing with byte-level systems.",
         "images": [
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
@@ -45,19 +41,15 @@
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-rust-plain",
+            "name": "Rust"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Rust Grep Utility",
+        "startDate": "2022",
+        "description": "A recreation of grep using Rust. This was my first time programming in Rust, and I overall learned a lot. I learned the inner workings of how Grep works, and how best to program in Rust.",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
@@ -65,53 +57,78 @@
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-rust-plain",
+            "name": "Rust"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "JP Morgan Chase & Co.",
+        "title": "AI/ML Summer Analyst",
+        "years": "6/2022 - 8/2022",
         "mainTech": [
-          "Angular 8/9/10"
+          "PyTorch"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "AWS",
+          "Keras",
+          "Tensorflow",
+          "Numpy",
+          "Pandas"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "California Institute of Technology (Caltech)",
+        "title": "Computer Science Teaching Assistant",
+        "years": "12/2020 - Present",
         "mainTech": [
-          "Angular 7/8"
+          "Java", "C"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "CS2: Data Structures & Algorithms",
+          "CS3: Software Engineering",
+          "CS24: Systems Engineering"
+        ]
+      },
+      {
+        "company": "NCR",
+        "title": "Software Engineer Intern",
+        "years": "06/2021 - 09/2021",
+        "mainTech": [
+          "Pandas", "PySpark"
+        ],
+        "technologies": [
+          "Numpy",
+          "Time Series Analysis"
+        ]
+      },
+      {
+        "company": "California Institute of Technology (Caltech)",
+        "title": "Undergraduate Researcher in Computer Vision (ARCL Lab)",
+        "years": "11/2021 - Present",
+        "mainTech": [
+          "PyTorch Lightning", "Open CV2"
+        ],
+        "technologies": [
+          "Pandas",
+          "Numpy",
+          "Hashing",
+          "Convolutional Neural Networks"
+        ]
+      },
+      {
+        "company": "California Institute of Technology (Caltech)",
+        "title": "Undergraduate Researcher in Computer Vision (ARCL Lab)",
+        "years": "11/2019 - 02/2021",
+        "mainTech": [
+          "PyTorch Lightning", "Open CV2"
+        ],
+        "technologies": [
+          "Pandas",
+          "Numpy",
+          "Convolutional Neural Networks"
         ]
       }
     ]
