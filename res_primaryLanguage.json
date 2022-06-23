@@ -1,0 +1,135 @@
+{
+    "basic_info": {
+      "description_header": "Howdy!",
+      "description": "I'm Esmir Mesic, a student at Caltech graduating in June 2023 pursuing a double major in Computer Science and Business, Economics, and Management (BEM) with a minor in Data Science. I love exploring data to find meaningful insights. Feel free to reach out to me! :)",
+      "section_name": {
+        "about": "Who Am I?",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Super Maruchan",
+        "startDate": "2020",
+        "description": "A clone of Super Mario created in a group of 4 from scratch in C using SDL2 libraries for the Caltech course CS3: Software Engineering. I was responsible for level creation and debugging most things throughout the project.",
+        "images": [
+          "images/portfolio/animal-shelter/p1.jpg",
+          "images/portfolio/animal-shelter/p2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-c-plain",
+            "name": "C Programming Language"
+          },
+          {
+            "class": "devicon-sdl-plain",
+            "name": "SDL"
+          }
+        ]
+      },
+      {
+        "title": "Rust Zip Utility",
+        "startDate": "2022",
+        "description": "A recreation of the zip and unzip utilities using Rust. My second project in Rust, dealing with byte-level systems.",
+        "images": [
+          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/photography/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-rust-plain",
+            "name": "Rust"
+          }
+        ]
+      },
+      {
+        "title": "Rust Grep Utility",
+        "startDate": "2022",
+        "description": "A recreation of grep using Rust. This was my first time programming in Rust, and I overall learned a lot. I learned the inner workings of how Grep works, and how best to program in Rust.",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-rust-plain",
+            "name": "Rust"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "JP Morgan Chase & Co.",
+        "title": "AI/ML Summer Analyst",
+        "years": "6/2022 - 8/2022",
+        "mainTech": [
+          "PyTorch"
+        ],
+        "technologies": [
+          "AWS",
+          "Keras",
+          "Tensorflow",
+          "Numpy",
+          "Pandas"
+        ]
+      },
+      {
+        "company": "California Institute of Technology (Caltech)",
+        "title": "Computer Science Teaching Assistant",
+        "years": "12/2020 - Present",
+        "mainTech": [
+          "Java", "C"
+        ],
+        "technologies": [
+          "CS2: Data Structures & Algorithms",
+          "CS3: Software Engineering",
+          "CS24: Systems Engineering"
+        ]
+      },
+      {
+        "company": "NCR",
+        "title": "Software Engineer Intern",
+        "years": "06/2021 - 09/2021",
+        "mainTech": [
+          "Pandas", "PySpark"
+        ],
+        "technologies": [
+          "Numpy",
+          "Time Series Analysis"
+        ]
+      },
+      {
+        "company": "California Institute of Technology (Caltech)",
+        "title": "Undergraduate Researcher in Computer Vision (ARCL Lab)",
+        "years": "11/2021 - Present",
+        "mainTech": [
+          "PyTorch Lightning", "Open CV2"
+        ],
+        "technologies": [
+          "Pandas",
+          "Numpy",
+          "Hashing",
+          "Convolutional Neural Networks"
+        ]
+      },
+      {
+        "company": "California Institute of Technology (Caltech)",
+        "title": "Undergraduate Researcher in Computer Vision (ARCL Lab)",
+        "years": "11/2019 - 02/2021",
+        "mainTech": [
+          "PyTorch Lightning", "Open CV2"
+        ],
+        "technologies": [
+          "Pandas",
+          "Numpy",
+          "Convolutional Neural Networks"
+        ]
+      }
+    ]
+  }
