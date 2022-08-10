@@ -1,115 +1,150 @@
 {
     "basic_info": {
       "description_header": "Zdravo",
-      "description": "Ja sam Esmir Mesic :)",
+      "description": "Ja sam Esmir Mešić. Idem u koledž u Caltech, gdje studiram programiranje i finansije. Diplomirao sam u junu 2023. Veoma sam zainteresovan za kvantitativne finansije, posebno uloga mašinskov učenja u tom prostoru. Takođe sam veoma zainteresovan za tradicionalni softverski inženjering koristeći Python i Rust. Slobodno saznajte!",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "O meni",
+        "projects": "Projekti",
+        "skills": "vještine",
+        "experience": "iskustvo"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
+        "title": "Super Maruchan",
         "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "description": "A clone of Super Mario created in a group of 4 from scratch in C using SDL2 libraries for the Caltech course CS3: Software Engineering. I was responsible for level creation and debugging most things throughout the project.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/maruchan/p1.jpg",
+          "images/portfolio/maruchan/p2.jpg"
         ],
-        "url": "",
+        "url": "https://github.com/emesic23/Super_Maruchan",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-c-plain",
+            "name": "C Programming Language"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-sdl-plain",
+            "name": "SDL"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+        "title": "Rust Zip Utility",
+        "startDate": "2022",
+        "description": "A recreation of the zip and unzip utilities using Rust. My second project in Rust, dealing with byte-level systems.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/zip/p1.jpg",
+          "images/portfolio/zip/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/emesic23/rust_zip",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-rust-plain",
+            "name": "Rust"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Rust Grep Utility",
+        "startDate": "2022",
+        "description": "A recreation of grep using Rust. This was my first time programming in Rust, and I overall learned a lot. I learned the inner workings of how Grep works, and how best to program in Rust.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/grep/p1.jpg",
+          "images/portfolio/grep/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/emesic23/rust_grep",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
+            "class": "devicon-rust-plain",
+            "name": "Rust"
+          }
+        ]
+      },
+      {
+        "title": "Python Spreadsheet Engine",
+        "startDate": "2022",
+        "description": "A Backend spreadsheet engine created in Python. Developed for the Caltech course CS130. Lots of high level systems design.",
+        "images": [
+          "images/portfolio/spreadsheet/p1.jpg",
+          "images/portfolio/spreadsheet/p2.jpg"
+        ],
+        "url": "https://github.com/emesic23/spreadsheet_engine",
+        "technologies": [
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-python-plain",
+            "name": "Python"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "JP Morgan Chase & Co.",
+        "title": "AI/ML Summer Analyst",
+        "years": "6/2022 - 8/2022",
         "mainTech": [
-          "Angular 8/9/10"
+          "PyTorch"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "AWS",
+          "Keras",
+          "Tensorflow",
+          "Numpy",
+          "Pandas"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "California Institute of Technology (Caltech)",
+        "title": "Computer Science Teaching Assistant",
+        "years": "12/2020 - Present",
         "mainTech": [
-          "Angular 7/8"
+          "Java", "C"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "CS2: Data Structures & Algorithms",
+          "CS3: Software Engineering",
+          "CS24: Systems Engineering"
+        ]
+      },
+      {
+        "company": "NCR",
+        "title": "Software Engineer Intern",
+        "years": "06/2021 - 09/2021",
+        "mainTech": [
+          "Pandas", "PySpark"
+        ],
+        "technologies": [
+          "Numpy",
+          "Time Series Analysis"
+        ]
+      },
+      {
+        "company": "California Institute of Technology (Caltech)",
+        "title": "Undergraduate Researcher in Computer Vision (ARCL Lab)",
+        "years": "11/2021 - Present",
+        "mainTech": [
+          "PyTorch Lightning", "Open CV2"
+        ],
+        "technologies": [
+          "Pandas",
+          "Numpy",
+          "Hashing",
+          "Convolutional Neural Networks"
+        ]
+      },
+      {
+        "company": "California Institute of Technology (Caltech)",
+        "title": "Undergraduate Researcher in Computer Vision (ARCL Lab)",
+        "years": "11/2019 - 02/2021",
+        "mainTech": [
+          "PyTorch Lightning", "Open CV2"
+        ],
+        "technologies": [
+          "Pandas",
+          "Numpy",
+          "Convolutional Neural Networks"
         ]
       }
     ]

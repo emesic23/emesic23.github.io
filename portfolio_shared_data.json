@@ -1,17 +1,12 @@
 {
     "basic_info": {
-      "name": "Esmir Mesic",
-      "titles": [ "Caltech Computer Science & Finance '23", "ML + AI Intern", "Undergraduate Researcher in Computer Vision"],
+      "name": "Esmir Mešić",
+      "titles": [ "Caltech Computer Science & Finance '23", "ML/AI Analyst", "Software Engineer", "Undergraduate Researcher in Computer Vision"],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/emesic23",
           "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
         }
       ],
       "image": "myProfile.jpg"
