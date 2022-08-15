@@ -12,7 +12,7 @@
     "projects": [
       {
         "title": "Rust Trading Bot (Stonx)",
-        "startDate": "2022",
+        "startDate": "2022 (WIP)",
         "description": "A Stock bot trading various securities with customizable strategies built in Rust with Alpaca Finance API.",
         "images": [
           "images/portfolio/stonx/p1.jpg",
