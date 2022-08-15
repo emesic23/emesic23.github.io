@@ -11,22 +11,18 @@
     },
     "projects": [
       {
-        "title": "Super Maruchan",
-        "startDate": "2020",
-        "description": "A clone of Super Mario created in a group of 4 from scratch in C using SDL2 libraries for the Caltech course CS3: Software Engineering. I was responsible for level creation and debugging most things throughout the project.",
+        "title": "Rust Trading Bot (Stonx)",
+        "startDate": "2022",
+        "description": "A Stock bot trading various securities with customizable strategies built in Rust with Alpaca Finance API.",
         "images": [
-          "images/portfolio/maruchan/p1.jpg",
-          "images/portfolio/maruchan/p2.jpg"
+          "images/portfolio/stonx/p1.jpg",
+          "images/portfolio/stonx/p2.jpg"
         ],
-        "url": "https://github.com/emesic23/Super_Maruchan",
+        "url": "https://github.com/emesic23/stonx",
         "technologies": [
           {
-            "class": "devicon-c-plain",
-            "name": "C Programming Language"
-          },
-          {
-            "class": "devicon-sdl-plain",
-            "name": "SDL"
+            "class": "devicon-rust-plain",
+            "name": "Rust"
           }
         ]
       },
@@ -75,6 +71,26 @@
           {
             "class": "devicon-python-plain",
             "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Super Maruchan",
+        "startDate": "2020",
+        "description": "A clone of Super Mario created in a group of 4 from scratch in C using SDL2 libraries for the Caltech course CS3: Software Engineering. I was responsible for level creation and debugging most things throughout the project.",
+        "images": [
+          "images/portfolio/maruchan/p1.jpg",
+          "images/portfolio/maruchan/p2.jpg"
+        ],
+        "url": "https://github.com/emesic23/Super_Maruchan",
+        "technologies": [
+          {
+            "class": "devicon-c-plain",
+            "name": "C Programming Language"
+          },
+          {
+            "class": "devicon-sdl-plain",
+            "name": "SDL"
           }
         ]
       }
